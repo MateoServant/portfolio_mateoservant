@@ -1,0 +1,59 @@
+.axe{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.decale{
+    
+    transition: all 0.7s;
+    transform:translate(70%,5%);
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border: 4px solid #000;
+    background-color: rgb(27, 231, 214);
+}
+.decale:hover{
+    transform: rotate(360deg);
+    
+}
+
+
+
+.acc{
+    display: flex;
+    
+    margin: 0%;
+    color: rgb(73, 69, 69);
+    text-decoration:none;
+    position: absolute;
+    right: 70%;
+    
+}
+
+.acc:hover{
+    display: flex;
+    
+    margin: 0%;
+    color: rgb(133, 129, 129);
+    text-decoration:none;
+}  
+
+.img1{ 
+    display: flex;
+    
+    margin: 0%;
+    position: absolute; 
+    top: 63%;
+    width: 10%;
+    left: 90%;
+}
+
+.info{
+    position: absolute;
+    right: 82%;
+}
+    

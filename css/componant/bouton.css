@@ -1,0 +1,97 @@
+body{
+    width: 100vw;
+}
+
+
+
+.model{
+    width: 180px;
+    height: 120px;
+    border: 4px solid #000;
+    -webkit-border-radius: 200px / 400px;
+    -moz-border-radius:    280px / 380px; 
+    border-radius:         400px / 400px; 
+    background-color: rgba(165, 40, 40, 0.856);
+    position: absolute;
+    right:30%;
+    
+    
+}
+
+
+
+.code{
+    width: 180px;
+    height: 120px;
+    border: 4px solid #000;
+    -webkit-border-radius: 200px / 400px;
+    -moz-border-radius:    280px / 380px; 
+    border-radius:         400px / 400px; 
+    background-color: rgb(206, 155, 47);
+    position: absolute;
+    right:30%;
+    
+}
+.crea{
+    width: 180px;
+    height: 120px;
+    border: 4px solid #000;
+    -webkit-border-radius: 200px / 400px;
+    -moz-border-radius:    280px / 380px; 
+    border-radius:         400px / 400px; 
+    background-color: rgb(189, 186, 33);
+    position: absolute;
+    right:30%;
+    
+}
+
+.cdeb{
+    width: 180px;
+    height: 120px;
+    border: 4px solid #000;
+    -webkit-border-radius: 200px / 400px;
+    -moz-border-radius:    280px / 380px; 
+    border-radius:         400px / 400px; 
+    background-color: rgb(80, 201, 32);
+    position: absolute;
+    right:30%;
+ }
+    
+ .jv{
+    width: 180px;
+    height: 120px;
+    border: 4px solid #000;
+    -webkit-border-radius: 200px / 400px;
+    -moz-border-radius:    280px / 380px; 
+    border-radius:         400px / 400px; 
+    background-color: rgb(22, 224, 140);
+    position: absolute;
+    right:30%;
+ }
+
+ @media screen and (min-width: 480px){
+    .model{
+        position: absolute;
+        right: 44%;
+    }
+
+    .code{
+        position: absolute;
+        right: 44%;
+    }
+
+    .crea{
+        position: absolute;
+        right: 44%;
+    }
+
+    .cdeb{
+        position: absolute;
+        right: 44%;
+    }
+
+    .jv{
+        position: absolute;
+        right: 44%;
+    }
+ }
